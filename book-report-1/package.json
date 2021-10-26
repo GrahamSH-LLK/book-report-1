@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.4.1",
+    "@heroicons/vue": "^1.0.4",
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.3.7",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^12.2.0",
+    "postcss": "^8.3.9",
+    "remark": "^14.0.1",
+    "remark-html": "^15.0.0",
+    "remark-preset-lint-recommended": "^6.1.1",
+    "tailwindcss": "^2.2.16",
+    "vfile-reporter": "^7.0.2"
+  }
+}
